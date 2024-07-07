@@ -33,4 +33,10 @@ img {
 .gallery-item {
   width: 360px;
   height: 200px;
+  transition: width 200ms ease-in-out, height 200ms ease-in-out;
+}
+
+.gallery-item:hover {
+  width: 376px;
+  height: 208px;
 }
